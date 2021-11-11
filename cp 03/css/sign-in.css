@@ -1,0 +1,12 @@
+.bn{
+    margin: 0 100px;
+    padding-left: 50px;
+}
+.nb{
+    border-style:dotted;
+    border-color:rgb(0, 158, 221) ;
+}
+.bn{
+    margin: 0 50px;
+    padding-left: 50px;
+}

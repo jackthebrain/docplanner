@@ -1,0 +1,32 @@
+.sign-up{
+    margin: 30vh 40vw;
+}
+.sign-up-box{
+    border-color:rgb(0, 158, 221);
+    margin: 20px 0;
+    box-shadow: 3px 2.5px darkgrey;
+}
+.sign-up-input{
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0 -22px;
+}
+.nb{
+    border-style:dotted;
+    border-color:rgb(0, 158, 221) ;
+}
+.li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 50px;
+    padding-block: 20px;
+}
+#button-sign-up{
+    border-color:rgb(0, 158, 221);
+    margin: 50px 40px;
+    background-color: white;
+    text-shadow: 1px 1px rgb(252, 101, 90);
+    box-shadow:2px 2px darkgrey;
+}
+
+

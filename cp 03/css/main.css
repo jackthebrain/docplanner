@@ -1,0 +1,28 @@
+.head{
+    background-color:white;
+    height: 100%;
+}
+.bd{
+    margin: 0;
+    padding: 0;
+}
+#bimg{
+    width:100%;
+}
+#jbd{
+    font-size: 40px;
+}
+#p1{
+    font-size: 20px;
+    padding-left: 70px ;
+}
+.art1{
+    font-family: monospace;
+    padding-left: 400px;
+}
+#text-contact{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    margin: 50vh 0;
+}

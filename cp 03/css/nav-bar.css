@@ -1,0 +1,41 @@
+.nb{
+    margin: 0;
+    padding: 0;
+     background-color:white;
+      height: 10vh;
+}
+.lvi{
+    padding-block: 6px;
+    list-style: none;
+    padding-right: 350px;
+}
+.lvj{
+    padding-right: 250px;
+    list-style: none;
+}
+.li{
+    list-style: none;
+    display: inline-block;
+    margin:0 25px;
+    padding-block: 20px;
+}
+#jk{
+    font-family: monospace;
+    padding-block: 5px;
+    padding-left: 45px;
+}
+.bn{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+}
+.nvi{
+    height: 55px;
+    width: 60px;
+}
+.l{
+    padding-left: 30px;
+    margin: 0;
+     display: flex;
+}

@@ -1,0 +1,26 @@
+.navigation {
+    width: 100%;
+    height:70px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-img {
+    height: 60px;
+    width: auto;
+    margin-left: 30px;
+}
+.nav-link {
+   text-decoration:none;
+   color:black;
+   font-family: monospace;
+   font-size: x-large;
+}
+.nav-items {
+    width: 30%;
+    margin-right: 20px;
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+}
