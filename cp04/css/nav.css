@@ -41,5 +41,27 @@
     top: 0;
     width: 100%;
     background-color:rgba(255, 255, 255, 0.990);
-    z-index: 999;
+    z-index: 9;
+}
+#dropdown-elements{
+    position: relative;
+}
+#dropdown-content{
+    list-style: none;
+    height: auto;
+    width: auto;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.281) ;
+    padding: 05px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+   
+}
+.dropdown-list{
+   margin: 15px 20px;
+}
+#dropdown-elements:hover #dropdown-content{
+    display: block;
+ 
 }

@@ -6,16 +6,13 @@ body{
 #header-content{
     margin: 110px 167px;
     padding: 0 20px;
-    
-}
+    }
 .parag{
     width: 477.5px;
     height:112px;
 }
 #tittle-div-head{
-
     margin: 34px 0;
-
 }
 #tittle-head{
     width: 975px;
@@ -31,8 +28,6 @@ body{
     padding: 0;
     
 }
-
-
 #img-header{
     display: block;
     margin-left:auto;
@@ -231,7 +226,6 @@ body{
     flex-direction: column;
     align-items: flex-start;
     overflow: hidden;
-
 }
 .card{
     padding: 5px 5px  ;
@@ -301,6 +295,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     color: #747474;
+    position: static;
 
 }
 .button-card-country{
@@ -315,6 +310,7 @@ body{
     padding: 10px 15px;
     display: flex;
     justify-content: space-around;
+    position: relative;
 }
 .text-country-card{
     width: 267px;
@@ -322,19 +318,22 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin:10px;
 }
 .image-card-country{
-    height: 355px;
-    width: 330px;
-    margin: 5px;
+    padding: 0;
+    margin: 0;
+    height: 340px;
+    width: 310px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    border-radius: 10px;
+    margin: 20px;
 }
 .image-coutry{
-border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 #country-pics-button{
     display: flex;
@@ -356,3 +355,51 @@ border-radius: 5px;
     flex-direction: row;
     align-items: center;
 }
+.image-card-country:hover{
+    box-shadow: 0 5px 5px 5px rgba(128, 128, 128, 0.281);
+    transition-duration: 250ms;
+
+}
+.button-card-country:hover{
+    background-color: #155bb6;
+    transition-duration: 250ms;
+}
+#end-docplanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 170px;
+    margin: 20px;
+} 
+#text-end{ 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color:rgb(51, 51, 51);
+    font-size: 30px;
+}
+#text-link-end{
+    text-decoration: none;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+#button-end{
+    border: none;
+    background-color: #3d83df;
+    height: 30px;
+    width: 250px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+#button-end:hover{
+    background-color: #155bb6;
+    transition-duration: 250ms;
+}
+
+
